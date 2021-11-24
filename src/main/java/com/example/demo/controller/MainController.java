@@ -1,8 +1,6 @@
 package com.example.demo.controller;
 
-import com.example.demo.entiy.Greeting;
 import com.example.demo.entiy.Message;
-import com.example.demo.entiy.MessageBD;
 import com.example.demo.entiy.User;
 import com.example.demo.repos.MessageRepo;
 import com.example.demo.repos.UserRepo;
@@ -13,7 +11,6 @@ import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.util.HtmlUtils;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

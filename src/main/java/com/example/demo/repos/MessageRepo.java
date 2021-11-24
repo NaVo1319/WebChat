@@ -1,7 +1,6 @@
 package com.example.demo.repos;
 
 import com.example.demo.entiy.Message;
-import com.example.demo.entiy.MessageBD;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
