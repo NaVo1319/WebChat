@@ -22,10 +22,7 @@ public class User implements UserDetails {
     @CollectionTable(name = "user_role",joinColumns = @JoinColumn(name = "user_id"))
     @Enumerated(EnumType.STRING)
     private Set<Role> roles;
-    private int win;
-    private int def;
-    private String nameAi="BrainAi";
-    private int difficultAi=1;
+    private String email;
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return roles;
@@ -49,11 +46,5 @@ public class User implements UserDetails {
     @Override
     public boolean isEnabled() {
         return true;
-    }
-    public void win(){
-        win++;
-    }
-    public void def(){
-        def++;
     }
 }

@@ -211,7 +211,7 @@ h4.card-title_ {
 .media-chat.media-chat-reverse .media-body p {
     float: right;
     clear: right;
-    background-color: #7648ad;
+    background-color: #88ad48;
     color: #fff
 }
 
@@ -219,7 +219,7 @@ h4.card-title_ {
     position: relative;
     padding: 6px 8px;
     margin: 4px 0;
-    background-color: #b68d31;
+    background-color: #75b2bd;
     color: #fff;
     border-radius: 3px
 }
@@ -239,7 +239,7 @@ h4.card-title_ {
     -webkit-box-align: center;
     align-items: center;
     padding: 12px 20px;
-    background-color: #7648ad;
+    background-color: #79ad48;
 }
 
 .publisher>*:first-child {

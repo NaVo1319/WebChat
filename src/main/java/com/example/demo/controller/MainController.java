@@ -27,8 +27,6 @@ public class MainController {
         User userBD = userRepo.findById(user.getId()).orElse(new User());
         List<Message> messageBDList=messageRepo.findAll();
         model.addAttribute("messages",messageBDList);
-        model.addAttribute("win",userBD.getWin());
-        model.addAttribute("def",userBD.getDef());
         model.addAttribute("username",userBD.getUsername());
         return "chat";
     }
